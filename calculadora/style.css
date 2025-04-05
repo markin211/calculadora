@@ -1,0 +1,122 @@
+h1{
+    color: 00f0;
+    text-align: center;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+nav{
+    background-color: #60086b;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+body{
+    background-color: black ;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+
+}
+main{
+    max-width: 350px;
+    margin: 20px auto;
+
+    padding: 20px;
+    background-color: rgba(128, 0, 128, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    border: 2px solid #60086b;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+  .calculator {
+    border-radius: 20px;
+    padding: 20px;
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .calculator.light {
+    background-color: #fff8dc;
+    color: black;
+  }
+
+  .calculator.dark {
+    background-color: #111;
+    color: white;
+  }
+
+  .display {
+    grid-column: span 4;
+    font-size: 2em;
+    text-align: right;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    color: inherit;
+  }
+
+  button {
+    font-size: 1.2em;
+    padding: 15px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+
+  .light button {
+    background-color: #fddde6;
+  }
+
+  .light .operator {
+    background-color: #ffeaa7;
+  }
+
+  .light .equal {
+    background-color: #ffc107;
+  }
+
+  .dark button {
+    background-color: #444;
+    color: white;
+  }
+
+  .dark .equal {
+    background-color: #9D00FF;
+  }
+
+  .toggle-theme {
+    top: 20px;
+    right: 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  .toggle-theme button {
+    background-color: #60086b;
+    color: white;
+    border: none;
+    border-top-left-radius: 50px;
+    background-origin: padding-box;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    width: 350px
+  }
